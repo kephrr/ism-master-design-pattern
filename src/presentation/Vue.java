@@ -1,5 +1,7 @@
 package presentation;
 
+import domain.Departement;
+
 import java.util.Scanner;
 
 public class Vue {
@@ -7,7 +9,7 @@ public class Vue {
         Scanner sc = new Scanner(System.in);
         int choix = 0;
         int matricule, nh, tauxh;
-        String nom, prenom, grade;
+        String nom, prenom, grade, nomDep, codeDep;
 
         String[] opts ={"Créer un Département", "Créer un Permanent","Créer un Vacataire",
                 "Rattacher un permanent à un département","Rattacher un vacataire à un département","Voire statistiques"};
@@ -16,7 +18,11 @@ public class Vue {
             choix = select(sc, opts);
             switch (choix) {
                 case 1:
-                    System.out.println(opts[0]);
+                    System.out.println("Entrez le nom du département");
+                    nomDep = sc.nextLine();
+                    System.out.println("Entrez le code du département");
+                    codeDep = sc.nextLine();
+                    Departement d = new Departement(nomDep, codeDep);
                     break;
                 case 2:
                     System.out.println(opts[1]);

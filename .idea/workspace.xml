@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e85d05-9c72-4a4d-9899-a6afe4d007c1" name="Changes" comment="Startup" />
+    <list default="true" id="53e85d05-9c72-4a4d-9899-a6afe4d007c1" name="Changes" comment="add: re-startup all">
+      <change beforePath="$PROJECT_DIR$/src/presentation/Vue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Vue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kephrr"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/kephrr/ism-master-design-pattern.git",
@@ -83,7 +91,7 @@
       <updated>1734263586585</updated>
       <workItem from="1734263587654" duration="7224000" />
       <workItem from="1734271191902" duration="7810000" />
-      <workItem from="1734861806164" duration="859000" />
+      <workItem from="1734861806164" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="Startup">
       <option name="closed" value="true" />
@@ -93,7 +101,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734862663430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix: exclude .idea/">
+      <option name="closed" value="true" />
+      <created>1734862748270</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734862748270</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: delete all">
+      <option name="closed" value="true" />
+      <created>1734862791117</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734862791117</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add: re-startup all">
+      <option name="closed" value="true" />
+      <created>1734862895707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734862895707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +133,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Startup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Startup" />
+    <MESSAGE value="fix: exclude .idea/" />
+    <MESSAGE value="fix: delete all" />
+    <MESSAGE value="add: re-startup all" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: re-startup all" />
   </component>
 </project>
