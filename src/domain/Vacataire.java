@@ -15,4 +15,12 @@ public class Vacataire extends Enseignant{
         double impot = brut*0.05;
         return brut - impot;
     }
+
+    @Override
+    public String toString() {
+        return "Vacataire " + getMatricule() +
+                " " + getNom()+" "+getPrenom() +
+                "\n Grade : " + getGrade() +
+                "\n Salaire Net :" + salaireNet();
+    }
 }

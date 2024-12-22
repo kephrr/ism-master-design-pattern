@@ -31,12 +31,9 @@ public class Permanent extends Enseignant{
 
     @Override
     public String toString() {
-        return "Permanent{" +
-                " Matricule=" + getMatricule() +
-                ", Nom & Prenom=" + getNom()+" "+getPrenom() +
-                ", Grade=" + getGrade() +
-                ", salaireBase=" + salaireBase +
-                ", prime=" + prime +
-                " }";
+        return "Permanent " + getMatricule() +
+                " " + getNom()+" "+getPrenom() +
+                "\n Grade : " + getGrade() +
+                "\n Salaire Net :" + salaireNet();
     }
 }

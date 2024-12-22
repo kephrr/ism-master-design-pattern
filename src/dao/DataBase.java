@@ -6,6 +6,7 @@ import domain.Permanent;
 import domain.Vacataire;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class DataBase {
     private ArrayList<Departement> departements = new ArrayList<>();
@@ -36,20 +37,50 @@ public class DataBase {
     }
 
     public void afficherPermanents() {
-        for (Enseignant enseignant : enseignants) if (enseignant instanceof Permanent) System.out.println(enseignant);
+        for (Enseignant enseignant : enseignants) {
+            if (enseignant instanceof Permanent) {
+                System.out.println("--------------------------------------------");
+                System.out.println(enseignant);
+                if(enseignant.getAffectation()!=null){
+                    System.out.println(enseignant.getAffectation().getNomDepartment());
+                }else{
+                    System.out.println(" Pas de département");
+                }
+            }
+        }
+        System.out.println("--------------------------------------------\n");
     }
 
     public void afficherVacataires() {
-        for (Enseignant enseignant : enseignants) if (enseignant instanceof Vacataire) System.out.println(enseignant);
+        for (Enseignant enseignant : enseignants) {
+            if (enseignant instanceof Vacataire) {
+                System.out.println("--------------------------------------------");
+                System.out.println(enseignant);
+                if(enseignant.getAffectation()!=null){
+                    System.out.println(enseignant.getAffectation().getNomDepartment());
+                }else{
+                    System.out.println(" Pas de département");
+                }
+            }
+        }
+        System.out.println("--------------------------------------------\n");
     }
 
     public Enseignant rechercherEnseignantByMatricule(int matricule) {
-        for (Enseignant enseignant : enseignants) if (enseignant.getMatricule() == matricule) return enseignant;
+        for (Enseignant enseignant : enseignants) {
+            if (enseignant.getMatricule() == matricule) {
+                return enseignant;
+            }
+        }
         return null;
     }
 
     public Departement rechercherDepartementByCode(String code) {
-        for (Departement departement : departements) if (departement.getCode().equals(code)) return departement;
+        for (Departement departement : departements) {
+            if (Objects.equals(departement.getCode(), code)) {
+                return departement;
+            }
+        }
         return null;
     }
 
