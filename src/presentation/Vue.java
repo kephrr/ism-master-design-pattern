@@ -1,12 +1,8 @@
 package presentation;
 
 import dao.DataBase;
-import domain.Departement;
-import domain.Enseignant;
-import domain.Permanent;
-import domain.Vacataire;
+import domain.*;
 import treatment.Treatment;
-
 import java.util.Scanner;
 
 public class Vue {
@@ -19,10 +15,11 @@ public class Vue {
         int matricule, nh, tauxh;
         String nom, prenom, grade, nomDep, codeDep;
         String[] options ={
-                "Créer un Département","Afficher les départements", "Créer un Vacataire",
-                "Créer un Permanent", "Rattacher un permanent à un département",
-                "Rattacher un vacataire à un département","Afficher les vacataires","Afficher les permanents",
-                "Voire statistiques","Quitter"};
+            "Créer un Département","Afficher les départements", "Créer un Vacataire",
+            "Créer un Permanent", "Rattacher un permanent à un département",
+            "Rattacher un vacataire à un département","Afficher les vacataires","Afficher les permanents",
+            "Voire statistiques","Quitter"
+        };
         do{
             for (int i = 0; i < options.length; i++) System.out.println((i+1)+". "+options[i]);
             choix = sc.nextInt();

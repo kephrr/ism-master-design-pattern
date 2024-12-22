@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e85d05-9c72-4a4d-9899-a6afe4d007c1" name="Changes" comment="add: creer+afficher dep, creer vacataire, creer permanent, rattacher ens a dep">
+    <list default="true" id="53e85d05-9c72-4a4d-9899-a6afe4d007c1" name="Changes" comment="add: lister, statistiques">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/DataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/DataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Departement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Departement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Permanent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Permanent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Vacataire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Vacataire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/presentation/Vue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/presentation/Vue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/treatment/Treatment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/treatment/Treatment.java" afterDir="false" />
     </list>
@@ -98,7 +94,7 @@
       <workItem from="1734263587654" duration="7224000" />
       <workItem from="1734271191902" duration="7810000" />
       <workItem from="1734861806164" duration="9133000" />
-      <workItem from="1734876130172" duration="4151000" />
+      <workItem from="1734876130172" duration="5098000" />
     </task>
     <task id="LOCAL-00001" summary="Startup">
       <option name="closed" value="true" />
@@ -148,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734865462814</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add: lister, statistiques">
+      <option name="closed" value="true" />
+      <created>1734880681769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734880681769</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +164,7 @@
     <MESSAGE value="fix: delete all" />
     <MESSAGE value="add: re-startup all" />
     <MESSAGE value="add: creer+afficher dep, creer vacataire, creer permanent, rattacher ens a dep" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: creer+afficher dep, creer vacataire, creer permanent, rattacher ens a dep" />
+    <MESSAGE value="add: lister, statistiques" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: lister, statistiques" />
   </component>
 </project>
