@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e85d05-9c72-4a4d-9899-a6afe4d007c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecole.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Departement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Enseignant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Permanent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/domain/Vacataire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/presentation/Vue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treatment/Treatment.java" afterDir="false" />
-    </list>
+    <list default="true" id="53e85d05-9c72-4a4d-9899-a6afe4d007c1" name="Changes" comment="Startup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kephrr/ism-master-design-pattern.git",
+    "accountId": "710c8930-1f5a-411c-8520-57757db18fda"
+  }
+}]]></component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\wamp64\bin\php\php8.1.28\php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -91,11 +83,24 @@
       <updated>1734263586585</updated>
       <workItem from="1734263587654" duration="7224000" />
       <workItem from="1734271191902" duration="7810000" />
-      <workItem from="1734861806164" duration="553000" />
+      <workItem from="1734861806164" duration="859000" />
     </task>
+    <task id="LOCAL-00001" summary="Startup">
+      <option name="closed" value="true" />
+      <created>1734862663430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734862663430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Startup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Startup" />
   </component>
 </project>
